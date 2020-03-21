@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="./src/styles.css">
-  <title>Weather</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Weather</title>
+  </head>
 
-<body>
-
-  <h1 class="title">Hello World!</h1>
-  <p>Lorem ipsu</p>
-
-</body>
-<script src="./src/index.js"></script>
+  <body>
+    <div class="location">
+      <h1 class="locationTimezone">
+        Timezone
+      </h1>
+      <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+      <div class="degreeSection">
+        <h2 class="temperatureDegree">34</h2>
+        <span>F</span>
+      </div>
+      <div class="temperatureDescription">its cold</div>
+    </div>
+  </body>
+  <script src="skycons.js"></script>
+  <script src="index.js"></script>
 </html>
